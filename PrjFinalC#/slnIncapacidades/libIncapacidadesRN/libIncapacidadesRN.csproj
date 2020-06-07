@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsPropietario.cs" />
+    <Compile Include="clsPropietarioRN.cs" />
     <Compile Include="clsVehiculosRN.cs" />
     <Compile Include="clsEmpleadoRN.cs" />
     <Compile Include="clsIncapacidadRN.cs" />

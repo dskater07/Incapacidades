@@ -31,8 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="libConexionBd">
+      <HintPath>E:\OneDrive - Instituto Tecnológico Metropolitano\ITM\2020\Desarrollo de Software\4. Comunes\slnConexionBd\libConexionBd\bin\Debug\libConexionBd.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarGrids">
+      <HintPath>E:\OneDrive - Instituto Tecnológico Metropolitano\ITM\2020\Desarrollo de Software\4. Comunes\slnLlenarControles\libLlenarGrids\bin\Debug\libLlenarGrids.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

@@ -50,7 +50,6 @@
   <ItemGroup>
     <Compile Include="clsPropietarioRN.cs" />
     <Compile Include="clsVehiculosRN.cs" />
-    <Compile Include="clsEmpleadoRN.cs" />
     <Compile Include="clsIncapacidadRN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

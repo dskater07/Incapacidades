@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace libIncapacidadesOpe
 {
-    class clsEmpleados
+    class clsEmpleado
     {
     }
 }

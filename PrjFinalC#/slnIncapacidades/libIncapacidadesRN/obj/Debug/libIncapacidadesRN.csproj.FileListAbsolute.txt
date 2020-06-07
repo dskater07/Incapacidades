@@ -4,3 +4,16 @@ C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncap
 C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csproj.CoreCompileInputs.cache
 C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.dll
 C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadesRN.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadesRN.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libConexionBd.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarGrids.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLeerParametrosCnx.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libConexionBd.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarGrids.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLeerParametrosCnx.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csprojAssemblyReference.cache
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csproj.CoreCompileInputs.cache
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csproj.CopyComplete
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.pdb

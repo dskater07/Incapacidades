@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsEmpleado.cs" />
-    <Compile Include="clsIncapacidad.cs" />
     <Compile Include="clsVehiculoOpe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

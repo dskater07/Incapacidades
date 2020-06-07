@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace libIncapacidadesRN
+namespace libIncapacidadesOpe
 {
-    public class clsIncapacidadesRN
+    class clsVehiculoOpe
     {
     }
 }

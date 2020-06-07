@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace libIncapacidadesOpe
+namespace libIncapacidadesRN
 {
-    class clsVehiculo
+    public class clsPropietario
     {
-        hol
+
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace libIncapacidadesOpe
 {
-    public class clsIncapacidadeOpe
+    public class clsIncapacidad
     {
         #region "Atributos"
         private int id_Empleado;
@@ -33,7 +33,7 @@ namespace libIncapacidadesOpe
     #endregion
 
     #region "Constructor"
-    public clsIncapacidadeOpe(int id_Empleado, int id_tipo_doc_Empleado, int id_tipo_empleado, int id_eps_Empleado, int id_empresa, string numero_documento, string primer_nombre, string segundo_nombre, string primer_apellido, string segundo_apellido, byte es_usuario, string direccion, string telefono, string correo_electronico, DateTime fecha_creacion, double salario, string strError, DataSet dsDatos)
+    public clsIncapacidad(int id_Empleado, int id_tipo_doc_Empleado, int id_tipo_empleado, int id_eps_Empleado, int id_empresa, string numero_documento, string primer_nombre, string segundo_nombre, string primer_apellido, string segundo_apellido, byte es_usuario, string direccion, string telefono, string correo_electronico, DateTime fecha_creacion, double salario, string strError, DataSet dsDatos)
     {
         this.id_Empleado = -1;
         this.id_tipo_doc_Empleado = -1;

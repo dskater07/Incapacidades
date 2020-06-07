@@ -8,5 +8,6 @@ namespace libIncapacidadesOpe
 {
     class clsVehiculo
     {
+        hol
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace libIncapacidadesRN
 {
-    class clsVehiculosRN
+    public class clsIncapacidadesRN
     {
     }
 }

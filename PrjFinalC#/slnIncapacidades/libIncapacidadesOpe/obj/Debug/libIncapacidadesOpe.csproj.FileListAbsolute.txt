@@ -1,0 +1,2 @@
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesOpe\obj\Debug\libIncapacidadesOpe.csprojAssemblyReference.cache
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesOpe\obj\Debug\libIncapacidadesOpe.csproj.CoreCompileInputs.cache

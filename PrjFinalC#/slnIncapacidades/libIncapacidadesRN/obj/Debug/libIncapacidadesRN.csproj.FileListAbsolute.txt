@@ -1,0 +1,6 @@
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadesRN.dll
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadesRN.pdb
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csprojAssemblyReference.cache
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.dll
+C:\Users\LEGION\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadesRN.pdb

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parametros>
+	<Servidor>.</Servidor>
+	<BaseDatos>INCAPACIDADES</BaseDatos>
+	<Usuario></Usuario>
+	<Clave></Clave>
+	<SeguridadIntegrada>NO</SeguridadIntegrada>
+</parametros>

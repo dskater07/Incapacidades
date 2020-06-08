@@ -1,0 +1,14 @@
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadRN.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libIncapacidadRN.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libConexionBd.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarCombos.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarGrids.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLeerParametrosCnx.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libConexionBd.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarCombos.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLlenarGrids.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\bin\Debug\libLeerParametrosCnx.pdb
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadRN.csproj.CoreCompileInputs.cache
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadRN.csproj.CopyComplete
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadRN.dll
+C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadesRN\obj\Debug\libIncapacidadRN.pdb

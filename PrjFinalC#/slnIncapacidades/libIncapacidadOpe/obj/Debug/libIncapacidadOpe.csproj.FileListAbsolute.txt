@@ -3,3 +3,8 @@ C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncap
 C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.csproj.CoreCompileInputs.cache
 C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.dll
 C:\Users\DSKATER\source\repos\Incapacidades\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.pdb
+C:\Users\johan\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\bin\Debug\libIncapacidadOpe.dll
+C:\Users\johan\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\bin\Debug\libIncapacidadOpe.pdb
+C:\Users\johan\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.csprojAssemblyReference.cache
+C:\Users\johan\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.dll
+C:\Users\johan\Source\Repos\Incapacidades2\PrjFinalC#\slnIncapacidades\libIncapacidadOpe\obj\Debug\libIncapacidadOpe.pdb

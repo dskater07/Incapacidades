@@ -107,7 +107,7 @@ namespace libIncapacidadesRN
                     }
                     if (strTipoDocumento == string.Empty)
                     {
-                        strError = "";
+                        strError = "Debe ingresar un tipo de documento";
                     }
 
                     break;
@@ -125,6 +125,7 @@ namespace libIncapacidadesRN
         {
             try
             {
+                SqlParameter[] objParam = new SqlParameter[1];
                 return true;
             }
             catch (Exception)

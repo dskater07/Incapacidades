@@ -15,46 +15,69 @@ namespace libIncapacidadesRN
     public class clsIncapacidadRN
     {
         #region "Atributos"
-        string strNum_incap;
-        int intIdEmpleado;
-        int intIdVehiculo;
-        int idIncapInicial;
-        int idTipoIncapciad;
-        DateTime dtFechaInicial;
-        DateTime dtFechaFinal;
-        double dblIBC;
-        string strObservaciones;
-        DateTime dtFechaUpdate;
-        int intDiaCobrar;
-        int intDiasProrroga;
-        private SqlParameter[] objDatosMatricula;
+        private string strNum_incap;
+        private int intIdEmpleado;
+        private int intIdVehiculo;
+        private int intIdIncapInicial;
+        private int intIdTipoIncapciad;
+        private DateTime? dtFechaInicial;
+        private DateTime? dtFechaFinal;
+        private double dblIBC;
+        private string strObservaciones;                                          
+        private DateTime? dtFechaUpdate;
+        private int intDiaCobrar;
+        private int intDiasProrroga;
+        private string strError;
+        private int intRpta;
+        private string strNombreApp;
+        private SqlParameter[] objDatosIncapacidad;
         private clsConexionBd objConex;
         private clsLlenarGrids objLlenaGrids;
         private DataSet dsDatos;
         GridView gvVehiculo;
 
+
         #endregion
 
         #region "Constructor"
         public clsIncapacidadRN() { 
-        strNum_incap = string.Empty;
+
+            strNum_incap = string.Empty;
+            intIdEmpleado = -1;
+            intIdVehiculo = -1;
+            intIdIncapInicial = -1;
+            intIdTipoIncapciad = -1;
+            dtFechaInicial = null;
+            dtFechaFinal =null;            
+            dblIBC = -1;
+            strObservaciones = string.Empty;
+            dtFechaUpdate = null;
+            intDiaCobrar = -1;
+            intDiasProrroga = -1;
+            strError = string.Empty;
+
+            strNombreApp = string.Empty;
+
+
+
         }
         #endregion
 
-        #region Parámetros
-        public string StrNum_incap { get => strNum_incap; set => strNum_incap = value; }
-        public int IntIdEmpleado { get => intIdEmpleado; set => intIdEmpleado = value; }
-        public int IntIdVehiculo { get => intIdVehiculo; set => intIdVehiculo = value; }
-        public int IdIncapInicial { get => idIncapInicial; set => idIncapInicial = value; }
-        public int IdTipoIncapciad { get => idTipoIncapciad; set => idTipoIncapciad = value; }
-        public DateTime DtFechaInicial { get => dtFechaInicial; set => dtFechaInicial = value; }
-        public DateTime DtFechaFinal { get => dtFechaFinal; set => dtFechaFinal = value; }
-        public double DblIBC { get => dblIBC; set => dblIBC = value; }
-        public string StrObservaciones { get => strObservaciones; set => strObservaciones = value; }
-        public DateTime DtFechaUpdate { get => dtFechaUpdate; set => dtFechaUpdate = value; }
-        public int IntDiaCobrar { get => intDiaCobrar; set => intDiaCobrar = value; }
-        public int IntDiasProrroga { get => intDiasProrroga; set => intDiasProrroga = value; }
-
+        #region "Propiedades"
+        public string Num_incap {set => strNum_incap = value; }
+        public int IdEmpleado {set => intIdEmpleado = value; }
+        public int IdVehiculo {set => intIdVehiculo = value; }
+        public int IdIncapInicial {set => intIdIncapInicial = value; }
+        public int IdTipoIncapciad {set => intIdTipoIncapciad = value; }
+        public DateTime? FechaInicial {set => dtFechaInicial = value; }
+        public DateTime? FechaFinal {set => dtFechaFinal = value; }
+        public double IBC {set => dblIBC = value; }
+        public string Observaciones {set => strObservaciones = value; }
+        public DateTime? FechaUpdate {set => dtFechaUpdate = value; }
+        public int DiaCobrar {set => intDiaCobrar = value; }
+        public int DiasProrroga {set => intDiasProrroga = value; }
+        public string Error { get => strError;}
+        public int Rpta { get => intRpta; }
 
         #endregion
 
@@ -73,7 +96,32 @@ namespace libIncapacidadesRN
         #endregion
         #region "Métodos Públicos"
 
+        public bool crearIncapacidad()
+        {
+            try
+            {
+                if (!validar())
+                {
+                    return false;
+                }
+                objConex = new clsConexionBd(strNombreApp);
 
+
+
+
+
+
+
+                return true;
+                
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
 
 
 

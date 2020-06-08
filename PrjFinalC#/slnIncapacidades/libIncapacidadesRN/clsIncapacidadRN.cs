@@ -2,6 +2,7 @@
 using libLlenarGrids;
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Data;
 using System.Data.SqlClient;
 using System.Globalization;
@@ -15,8 +16,9 @@ namespace libIncapacidadesRN
     public class clsIncapacidadRN
     {
         #region "Atributos"
+        private string strTipoDocumento;
+        private string strNumeroDocuemento;
         private string strNum_incap;
-        private int intIdEmpleado;
         private int intIdVehiculo;
         private int intIdIncapInicial;
         private int intIdTipoIncapciad;
@@ -40,10 +42,10 @@ namespace libIncapacidadesRN
         #endregion
 
         #region "Constructor"
-        public clsIncapacidadRN() { 
-
+        public clsIncapacidadRN() {
+            strTipoDocumento = string.Empty;
+            strNumeroDocuemento = string.Empty;
             strNum_incap = string.Empty;
-            intIdEmpleado = -1;
             intIdVehiculo = -1;
             intIdIncapInicial = -1;
             intIdTipoIncapciad = -1;
@@ -64,8 +66,9 @@ namespace libIncapacidadesRN
         #endregion
 
         #region "Propiedades"
+        public string TipoDocumento {set => strTipoDocumento = value; }
+        public string NumeroDocuemento {set => strNumeroDocuemento = value; }
         public string Num_incap {set => strNum_incap = value; }
-        public int IdEmpleado {set => intIdEmpleado = value; }
         public int IdVehiculo {set => intIdVehiculo = value; }
         public int IdIncapInicial {set => intIdIncapInicial = value; }
         public int IdTipoIncapciad {set => intIdTipoIncapciad = value; }
@@ -78,19 +81,60 @@ namespace libIncapacidadesRN
         public int DiasProrroga {set => intDiasProrroga = value; }
         public string Error { get => strError;}
         public int Rpta { get => intRpta; }
+        
 
         #endregion
 
 
         #region "Métodos Privados"
-        private bool validar()
+        private bool validar(string metodoOrigen)
         {
 
+            if (strNombreApp == string.Empty)
+            {
+                strError = "Olvidó enviar el nombre de la aplicación";
+                return false;
+            }
 
+            switch (metodoOrigen.ToLower())
+            {
+                case "crearincapacidad":
+                    if (strNum_incap == string.Empty)
+                    {
+                        strError = "Debe ingresar el número de la incapacidad";
+                        return false;
+
+                    }
+                    if (strTipoDocumento == string.Empty)
+                    {
+                        strError = "";
+                    }
+
+                    break;
+
+                default:
+                    break;
+            }
 
 
 
             return true;
+        }
+
+        private bool agregarParam(string metedoOrigen)
+        {
+            try
+            {
+                return true;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+
         }
 
         #endregion
@@ -100,11 +144,12 @@ namespace libIncapacidadesRN
         {
             try
             {
-                if (!validar())
+                if (!validar("crearIncapacidad"))
                 {
                     return false;
                 }
                 objConex = new clsConexionBd(strNombreApp);
+
 
 
 
